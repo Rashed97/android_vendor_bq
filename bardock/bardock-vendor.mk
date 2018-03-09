@@ -31,6 +31,15 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/etc/firmware/fpchips64.b06:system/etc/firmware/fpchips64.b06 \
     vendor/bq/bardock/proprietary/etc/firmware/fpchips64.flist:system/etc/firmware/fpchips64.flist \
     vendor/bq/bardock/proprietary/etc/firmware/fpchips64.mdt:system/etc/firmware/fpchips64.mdt \
+    vendor/bq/bardock/proprietary/etc/firmware/goodixfp.b00:system/etc/firmware/goodixfp.b00 \
+    vendor/bq/bardock/proprietary/etc/firmware/goodixfp.b01:system/etc/firmware/goodixfp.b01 \
+    vendor/bq/bardock/proprietary/etc/firmware/goodixfp.b02:system/etc/firmware/goodixfp.b02 \
+    vendor/bq/bardock/proprietary/etc/firmware/goodixfp.b03:system/etc/firmware/goodixfp.b03 \
+    vendor/bq/bardock/proprietary/etc/firmware/goodixfp.b04:system/etc/firmware/goodixfp.b04 \
+    vendor/bq/bardock/proprietary/etc/firmware/goodixfp.b05:system/etc/firmware/goodixfp.b05 \
+    vendor/bq/bardock/proprietary/etc/firmware/goodixfp.b06:system/etc/firmware/goodixfp.b06 \
+    vendor/bq/bardock/proprietary/etc/firmware/goodixfp.mbn:system/etc/firmware/goodixfp.mbn \
+    vendor/bq/bardock/proprietary/etc/firmware/goodixfp.mdt:system/etc/firmware/goodixfp.mdt \
     vendor/bq/bardock/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/bq/bardock/proprietary/etc/firmware/sw_fp.b00:system/etc/firmware/sw_fp.b00 \
     vendor/bq/bardock/proprietary/etc/firmware/sw_fp.b01:system/etc/firmware/sw_fp.b01 \
@@ -43,14 +52,15 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/bq/bardock/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/bq/bardock/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
+    vendor/bq/bardock/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/bq/bardock/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/bq/bardock/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/bq/bardock/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
-    vendor/bq/bardock/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
+    vendor/bq/bardock/proprietary/vendor/etc/permissions/embms.xml:system/vendor/etc/permissions/embms.xml \
     vendor/bq/bardock/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/bq/bardock/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/bq/bardock/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
-    vendor/bq/bardock/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/bq/bardock/proprietary/vendor/etc/permissions/qti_libpermissions.xml:system/vendor/etc/permissions/qti_libpermissions.xml \
+    vendor/bq/bardock/proprietary/vendor/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
     vendor/bq/bardock/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/bq/bardock/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/bq/bardock/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
@@ -60,7 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/bq/bardock/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/bq/bardock/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/bq/bardock/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
+    vendor/bq/bardock/proprietary/vendor/framework/embmslibrary.jar:system/vendor/framework/embmslibrary.jar \
     vendor/bq/bardock/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/bq/bardock/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/bq/bardock/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
@@ -69,6 +79,8 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/lib/libcam.beautyshot.so:system/lib/libcam.beautyshot.so \
     vendor/bq/bardock/proprietary/lib/libcam.vidhance.so:system/lib/libcam.vidhance.so \
     vendor/bq/bardock/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
+    vendor/bq/bardock/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
+    vendor/bq/bardock/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
     vendor/bq/bardock/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/bq/bardock/proprietary/lib/libvidhance.so:system/lib/libvidhance.so \
     vendor/bq/bardock/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
@@ -78,7 +90,12 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/bq/bardock/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/bq/bardock/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
+    vendor/bq/bardock/proprietary/lib64/hw/csfingerprint.default.so:system/lib64/hw/csfingerprint.default.so \
+    vendor/bq/bardock/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
+    vendor/bq/bardock/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
     vendor/bq/bardock/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
+    vendor/bq/bardock/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
+    vendor/bq/bardock/proprietary/vendor/lib64/libsdm-disp-apis.so:system/vendor/lib64/libsdm-disp-apis.so \
     vendor/bq/bardock/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/bq/bardock/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/bq/bardock/proprietary/lib64/vendor.nxp.nxpnfc@1.0.so:system/lib64/vendor.nxp.nxpnfc@1.0.so \
@@ -90,12 +107,14 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/bq/bardock/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/bq/bardock/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
+    vendor/bq/bardock/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
     vendor/bq/bardock/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/bq/bardock/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/bq/bardock/proprietary/vendor/bin/fstman:system/vendor/bin/fstman \
     vendor/bq/bardock/proprietary/vendor/bin/garden_app:system/vendor/bin/garden_app \
     vendor/bq/bardock/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/bq/bardock/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
+    vendor/bq/bardock/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.bardock:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.bardock \
     vendor/bq/bardock/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/vendor/bin/hw/vendor.display.color@1.0-service \
     vendor/bq/bardock/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
     vendor/bq/bardock/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
@@ -160,6 +179,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/vendor/etc/drc/drc_cfg_5.1.txt:system/vendor/etc/drc/drc_cfg_5.1.txt \
     vendor/bq/bardock/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:system/vendor/etc/drc/drc_cfg_AZ.txt \
     vendor/bq/bardock/proprietary/vendor/etc/flp.conf:system/vendor/etc/flp.conf \
+    vendor/bq/bardock/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.bardock.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.bardock.rc \
     vendor/bq/bardock/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:system/vendor/etc/init/vendor.display.color@1.0-service.rc \
     vendor/bq/bardock/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
     vendor/bq/bardock/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
@@ -225,8 +245,10 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
     vendor/bq/bardock/proprietary/vendor/lib/libOmxApeDec.so:system/vendor/lib/libOmxApeDec.so \
     vendor/bq/bardock/proprietary/vendor/lib/libOmxApeDecSw.so:system/vendor/lib/libOmxApeDecSw.so \
+    vendor/bq/bardock/proprietary/vendor/lib/libOmxDsdDec.so:system/vendor/lib/libOmxDsdDec.so \
     vendor/bq/bardock/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/bq/bardock/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/bq/bardock/proprietary/vendor/lib/libOmxVideoDSMode.so:system/vendor/lib/libOmxVideoDSMode.so \
     vendor/bq/bardock/proprietary/vendor/lib/libOmxVpp.so:system/vendor/lib/libOmxVpp.so \
     vendor/bq/bardock/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/bq/bardock/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
@@ -631,13 +653,13 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
     vendor/bq/bardock/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
     vendor/bq/bardock/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
+    vendor/bq/bardock/proprietary/vendor/lib/libsdsprpc.so:system/vendor/lib/libsdsprpc.so \
     vendor/bq/bardock/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/bq/bardock/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/bq/bardock/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/bq/bardock/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/bq/bardock/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/bq/bardock/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
-    vendor/bq/bardock/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/bq/bardock/proprietary/vendor/lib/libtinyxml2_1.so:system/vendor/lib/libtinyxml2_1.so \
     vendor/bq/bardock/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
     vendor/bq/bardock/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
@@ -652,6 +674,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so \
     vendor/bq/bardock/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/bq/bardock/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
+    vendor/bq/bardock/proprietary/vendor/lib/rfsa/adsp/libexternal_dog_skel.so:system/vendor/lib/rfsa/adsp/libexternal_dog_skel.so \
     vendor/bq/bardock/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/bq/bardock/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/bq/bardock/proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:system/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
@@ -819,6 +842,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
     vendor/bq/bardock/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
     vendor/bq/bardock/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
+    vendor/bq/bardock/proprietary/vendor/lib64/libsdsprpc.so:system/vendor/lib64/libsdsprpc.so \
     vendor/bq/bardock/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/bq/bardock/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/bq/bardock/proprietary/vendor/lib64/libseemore.so:system/vendor/lib64/libseemore.so \
@@ -829,7 +853,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/bq/bardock/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/bq/bardock/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
-    vendor/bq/bardock/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/bq/bardock/proprietary/vendor/lib64/libtinyxml2_1.so:system/vendor/lib64/libtinyxml2_1.so \
     vendor/bq/bardock/proprietary/vendor/lib64/libts_detected_face_hal.so:system/vendor/lib64/libts_detected_face_hal.so \
     vendor/bq/bardock/proprietary/vendor/lib64/libts_face_beautify_hal.so:system/vendor/lib64/libts_face_beautify_hal.so \
@@ -879,6 +902,7 @@ PRODUCT_PACKAGES += \
     libqmi_common_so \
     libqmiservices \
     libsdm-disp-vndapis \
+    libthermalclient \
     libtime_genoff \
     libloc_api_v02 \
     QtiTelephonyService \
@@ -889,5 +913,7 @@ PRODUCT_PACKAGES += \
     CNEService \
     com.qualcomm.location \
     qcrilmsgtunnel \
+    SVIService \
     TimeService \
+    colorservice \
     qcrilhook
