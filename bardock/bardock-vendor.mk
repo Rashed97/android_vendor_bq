@@ -16,7 +16,9 @@
 
 PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary//vendor/etc/xtwifi.conf:system//vendor/etc/xtwifi.conf \
+    vendor/bq/bardock/proprietary/bin/adjust_serialno:system/bin/adjust_serialno \
     vendor/bq/bardock/proprietary/bin/climax_hostSW:system/bin/climax_hostSW \
+    vendor/bq/bardock/proprietary/bin/ppd:system/bin/ppd \
     vendor/bq/bardock/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/bq/bardock/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/bq/bardock/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
@@ -56,11 +58,11 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/bq/bardock/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/bq/bardock/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
-    vendor/bq/bardock/proprietary/vendor/etc/permissions/embms.xml:system/vendor/etc/permissions/embms.xml \
+    vendor/bq/bardock/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/bq/bardock/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/bq/bardock/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/bq/bardock/proprietary/vendor/etc/permissions/qti_libpermissions.xml:system/vendor/etc/permissions/qti_libpermissions.xml \
-    vendor/bq/bardock/proprietary/vendor/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
+    vendor/bq/bardock/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
+    vendor/bq/bardock/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/bq/bardock/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/bq/bardock/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/bq/bardock/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
@@ -179,6 +181,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/vendor/etc/drc/drc_cfg_5.1.txt:system/vendor/etc/drc/drc_cfg_5.1.txt \
     vendor/bq/bardock/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:system/vendor/etc/drc/drc_cfg_AZ.txt \
     vendor/bq/bardock/proprietary/vendor/etc/flp.conf:system/vendor/etc/flp.conf \
+    vendor/bq/bardock/proprietary/vendor/etc/gps.conf:system/vendor/etc/gps.conf \
     vendor/bq/bardock/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.bardock.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.bardock.rc \
     vendor/bq/bardock/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:system/vendor/etc/init/vendor.display.color@1.0-service.rc \
     vendor/bq/bardock/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
