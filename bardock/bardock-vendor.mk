@@ -80,6 +80,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/bq/bardock/proprietary/lib/libcam.beautyshot.so:system/lib/libcam.beautyshot.so \
     vendor/bq/bardock/proprietary/lib/libcam.vidhance.so:system/lib/libcam.vidhance.so \
+    vendor/bq/bardock/proprietary/lib/liblocationservice_jni.so:system/lib/liblocationservice_jni.so \
     vendor/bq/bardock/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/bq/bardock/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/bq/bardock/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
@@ -98,6 +99,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
     vendor/bq/bardock/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
     vendor/bq/bardock/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
+    vendor/bq/bardock/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/bq/bardock/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
     vendor/bq/bardock/proprietary/vendor/lib64/libsdm-disp-apis.so:system/vendor/lib64/libsdm-disp-apis.so \
     vendor/bq/bardock/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
