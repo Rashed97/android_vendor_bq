@@ -82,11 +82,18 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/bq/bardock/proprietary/lib/libcam.beautyshot.so:system/lib/libcam.beautyshot.so \
     vendor/bq/bardock/proprietary/lib/libcam.vidhance.so:system/lib/libcam.vidhance.so \
+    vendor/bq/bardock/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
+    vendor/bq/bardock/proprietary/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so \
+    vendor/bq/bardock/proprietary/lib/libdpmfdmgr.so:system/lib/libdpmfdmgr.so \
+    vendor/bq/bardock/proprietary/lib/libdpmframework.so:system/lib/libdpmframework.so \
+    vendor/bq/bardock/proprietary/lib/libdpmnsrm.so:system/lib/libdpmnsrm.so \
+    vendor/bq/bardock/proprietary/lib/libdpmtcm.so:system/lib/libdpmtcm.so \
     vendor/bq/bardock/proprietary/lib/liblocationservice_jni.so:system/lib/liblocationservice_jni.so \
     vendor/bq/bardock/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/bq/bardock/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/bq/bardock/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
     vendor/bq/bardock/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
+    vendor/bq/bardock/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/bq/bardock/proprietary/lib/libvidhance.so:system/lib/libvidhance.so \
     vendor/bq/bardock/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
     vendor/bq/bardock/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
@@ -98,6 +105,12 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/bq/bardock/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/bq/bardock/proprietary/lib64/hw/csfingerprint.default.so:system/lib64/hw/csfingerprint.default.so \
+    vendor/bq/bardock/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
+    vendor/bq/bardock/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
+    vendor/bq/bardock/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
+    vendor/bq/bardock/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
+    vendor/bq/bardock/proprietary/lib64/libdpmnsrm.so:system/lib64/libdpmnsrm.so \
+    vendor/bq/bardock/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
     vendor/bq/bardock/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
     vendor/bq/bardock/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
     vendor/bq/bardock/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
