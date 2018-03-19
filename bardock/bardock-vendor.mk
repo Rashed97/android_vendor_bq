@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary//vendor/etc/xtwifi.conf:system//vendor/etc/xtwifi.conf \
     vendor/bq/bardock/proprietary/bin/adjust_serialno:system/bin/adjust_serialno \
     vendor/bq/bardock/proprietary/bin/climax_hostSW:system/bin/climax_hostSW \
+    vendor/bq/bardock/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/bq/bardock/proprietary/bin/ppd:system/bin/ppd \
     vendor/bq/bardock/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/bq/bardock/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
@@ -43,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/etc/firmware/goodixfp.mbn:system/etc/firmware/goodixfp.mbn \
     vendor/bq/bardock/proprietary/etc/firmware/goodixfp.mdt:system/etc/firmware/goodixfp.mdt \
     vendor/bq/bardock/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
+    vendor/bq/bardock/proprietary/etc/firmware/ilitek_i2c.bin:system/etc/firmware/ilitek_i2c.bin \
     vendor/bq/bardock/proprietary/etc/firmware/sw_fp.b00:system/etc/firmware/sw_fp.b00 \
     vendor/bq/bardock/proprietary/etc/firmware/sw_fp.b01:system/etc/firmware/sw_fp.b01 \
     vendor/bq/bardock/proprietary/etc/firmware/sw_fp.b02:system/etc/firmware/sw_fp.b02 \
@@ -116,6 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/bq/bardock/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/bq/bardock/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
+    vendor/bq/bardock/proprietary/vendor/bin/cnss_diag:system/vendor/bin/cnss_diag \
     vendor/bq/bardock/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/bq/bardock/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/bq/bardock/proprietary/vendor/bin/fstman:system/vendor/bin/fstman \
