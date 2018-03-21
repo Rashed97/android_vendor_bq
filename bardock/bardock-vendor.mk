@@ -164,7 +164,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/bq/bardock/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/bq/bardock/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
-    vendor/bq/bardock/proprietary/vendor/bin/wcnss_service:system/vendor/bin/wcnss_service \
     vendor/bq/bardock/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
     vendor/bq/bardock/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
     vendor/bq/bardock/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
