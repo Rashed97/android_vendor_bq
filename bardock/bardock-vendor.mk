@@ -75,7 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardock/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/bq/bardock/proprietary/vendor/framework/embmslibrary.jar:system/vendor/framework/embmslibrary.jar \
     vendor/bq/bardock/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-    vendor/bq/bardock/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/bq/bardock/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/bq/bardock/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/bq/bardock/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
@@ -938,7 +937,6 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     libloc_api_v02 \
-    QtiTelephonyService \
     datastatusnotification \
     embms \
     ims \
